@@ -908,6 +908,13 @@
   resolved "https://registry.npm.taobao.org/@csstools/convert-colors/download/@csstools/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha1-rUldxBsS511YjG24uYNPCPoTHrc=
 
+"@femessage/el-data-table@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.npm.taobao.org/@femessage/el-data-table/download/@femessage/el-data-table-1.6.2.tgz#8a25306df89f57c551d91ae6eea7e46699ce184b"
+  integrity sha1-iiUwbfifV8VR2Rrm7qfkZpnOGEs=
+  dependencies:
+    lodash.get "^4.4.2"
+
 "@femessage/el-form-renderer@^1.6.0":
   version "1.6.0"
   resolved "https://registry.npmjs.org/@femessage/el-form-renderer/-/el-form-renderer-1.6.0.tgz#43bbd94d3a21efe6b16564fdf6db7cfc2e646b11"
@@ -915,13 +922,6 @@
   dependencies:
     lodash.get "^4.4.2"
     lodash.set "^4.3.2"
-
-"@femessage/el-data-table@^1.6.2":
-  version "1.6.2"
-  resolved "https://registry.npm.taobao.org/@femessage/el-data-table/download/@femessage/el-data-table-1.6.2.tgz#8a25306df89f57c551d91ae6eea7e46699ce184b"
-  integrity sha1-iiUwbfifV8VR2Rrm7qfkZpnOGEs=
-  dependencies:
-    lodash.get "^4.4.2"
 
 "@femessage/theme-deepexi@^2.4.11":
   version "2.4.11"
@@ -8963,6 +8963,11 @@ performance-now@^2.1.0:
   resolved "https://registry.npm.taobao.org/performance-now/download/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
 
+picocolors@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-0.2.1.tgz#570670f793646851d1ba135996962abad587859f"
+  integrity sha512-cMlDqaLEqfSaW8Z7N5Jw+lyIW869EzT73/F5lhtY9cLGoVxSXznfgfXMO0Z5K0o0Q2TkTXq+0KFsdnSe3jDViA==
+
 picomatch@^2.0.4:
   version "2.0.7"
   resolved "https://registry.npm.taobao.org/picomatch/download/picomatch-2.0.7.tgz#514169d8c7cd0bdbeecc8a2609e34a7163de69f6"
@@ -9749,13 +9754,12 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     uniq "^1.0.1"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.2, postcss@^7.0.5, postcss@^7.0.6, postcss@^7.0.7:
-  version "7.0.16"
-  resolved "https://registry.npm.taobao.org/postcss/download/postcss-7.0.16.tgz#48f64f1b4b558cb8b52c88987724359acb010da2"
-  integrity sha1-SPZPG0tVjLi1LIiYdyQ1mssBDaI=
+  version "7.0.39"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.39.tgz#9624375d965630e2e1f2c02a935c82a59cb48309"
+  integrity sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA==
   dependencies:
-    chalk "^2.4.2"
+    picocolors "^0.2.1"
     source-map "^0.6.1"
-    supports-color "^6.1.0"
 
 prelude-ls@~1.1.2:
   version "1.1.2"
@@ -9981,7 +9985,7 @@ qrcode-terminal@^0.12.0:
   resolved "https://registry.npm.taobao.org/qrcode-terminal/download/qrcode-terminal-0.12.0.tgz#bb5b699ef7f9f0505092a3748be4464fe71b5819"
   integrity sha1-u1tpnvf58FBQkqN0i+RGT+cbWBk=
 
-qs@6.7.0, qs@^6.5.2:
+qs@6.7.0:
   version "6.7.0"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
